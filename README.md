@@ -32,35 +32,33 @@ HDCTM_김창흡한시분석/
 ├── 01_HDCTM_김창흡한시분석_통합패키지.zip # 소스 코드 및 데이터 전체를 포함한 일괄 압축 파일(데이터 투명성 검증용 원본 날짜 유지)
 ├── 02_하이브리드토픽모델링분석기.py # 토픽 모델링 파이프라인 메인 파이썬 코드
 ├── 03_Original_Data/ # 인문학 논문 검증용 추출 원본 데이터
-│ └── 삼연시학메타주제표준화통합데이터.xlsx
+│   └── 삼연시학메타주제표준화통합데이터.xlsx
 │
 ├── 04_BottomUp_Analysis/ # 미시 어휘 중심 상향식 자율 군집 결과
-│ ├── 0439. 삼연집(三淵集)_bottomup_analysis_metadata.csv
-│ ├── 0439. 삼연집(三淵集)_bottomup_meta_report.html
-│ ├── step1_clustered.csv
-│ ├── step2_summaries.csv
-│ ├── step3_meta_clustered.csv
-│ └── step4_final_reports/
-│ ├── report_meta_0.json
-│ ├── report_meta_1.json
-│ ├── report_meta_2.json
-│ ├── report_meta_3.json
-│ ├── report_meta_4.json
-│ ├── report_meta_5.json
-│ └── report_meta_6.json
+│   ├── 0439. 삼연집(三淵集)_bottomup_analysis_metadata.csv
+│   ├── 0439. 삼연집(三淵集)_bottomup_meta_report.html
+│   ├── step1_clustered.csv
+│   ├── step2_summaries.csv
+│   ├── step3_meta_clustered.csv
+│   └── step4_final_reports/
+│       ├── report_meta_0.json
+│       ├── report_meta_1.json
+│       ├── report_meta_2.json
+│       ├── report_meta_3.json
+│       ├── report_meta_4.json
+│       ├── report_meta_5.json
+│       └── report_meta_6.json
 │
 └── 05_TopDown_Analysis/ # 거시 맥락 중심 하향식 병합 결과 (전수 한시 포함)
-├── 0439. 삼연집(三淵集)_merged_all_topdown_analysis_metadata.csv
-├── 0439. 삼연집(三淵集)_merged_all_topdown_meta_report.html
-├── step1_summaries.csv
-├── step2_meta_clustered.csv
-└── step3_final_reports/
-├── report_meta_0.json
-├── report_meta_1.json
-├── report_meta_2.json
-└── report_meta_3.json
-
-text
+    ├── 0439. 삼연집(三淵集)_merged_all_topdown_analysis_metadata.csv
+    ├── 0439. 삼연집(三淵集)_merged_all_topdown_meta_report.html
+    ├── step1_summaries.csv
+    ├── step2_meta_clustered.csv
+    └── step3_final_reports/
+        ├── report_meta_0.json
+        ├── report_meta_1.json
+        ├── report_meta_2.json
+        └── report_meta_3.json
 
 ### 2.2. 파일별 세부 상세 명세 (Detailed File Specifications)
 
