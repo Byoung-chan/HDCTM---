@@ -125,7 +125,7 @@ HDCTM_김창흡한시분석/
 
 ```bibtex
 @misc{hdctm2026,
-  author       = {김창흡 한시 분석 연구팀},
+  author       = {*******},
   title        = {HDCTM-김창흡 한시분석도구 및 결과},
   year         = {2026},
   publisher    = {GitHub},
