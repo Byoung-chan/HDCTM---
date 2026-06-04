@@ -88,7 +88,7 @@ HDCTM_김창흡한시분석/
 
 * **`0439. 삼연집(三淵集)_merged_all_topdown_analysis_metadata.csv`**: 스키마 구조화 및 대주제 수렴 정렬이 100% 완료된 하향식 통합 마스터 메타데이터 파일이다.
 * **`0439. 삼연집(三淵集)_merged_all_topdown_meta_report.html`**: 문헌학적 Ground Truth(대자연 귀의와 은일 수양, 사회 현실 고발과 풍자 등 작가의 실제 역사적 삶의 궤적)와 정밀하게 부합하도록 정렬된 4대 거시 대주제의 심층 분석 내용을 수록한 HTML 보고서이다.
-* **`step1_summaries.csv` / `step2_meta_clustered.csv**`: 동일 레이블 코드 조합 소그룹의 수학적 무게중심 대표작 선정, 개념 요약문 도출 및 요약문 수준 추상화 공간에서의 메타 군집화 연산이 수행된 단계별 데이터이다.
+* **`step1_summaries.csv` / `step2_meta_clustered.csv**`: 동일 레이블 코드 조합 소그룹별로 진입점 표본(Entry-point Sample) 및 관련 맥락 시편을 추출하여 LLM 기반 개념 요약문을 도출하고, 해당 요약문 벡터 공간상에서 HDBSCAN 메타 군집화 연산을 수행한 단계별 중간 데이터이다.
 * **`step3_final_reports/`**: 하향식 전문가 가이드 통합 트랙의 최종 대주제별 심층 분석 논문 원고가 집약된 JSON 형식의 리포트 파일(0번~3번)들의 집합이다.
 
 ---
